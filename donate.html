@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate Food</title>
+  <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+ 
+  <header>
+    <nav class="navbar">
+      <div class="logo">Food4All</div>
+      <ul class="nav-links">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="donate.html">Donate Food</a></li>
+        <li><a href="available.html">Available Food</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="donation-form-section">
+      <h1>Donate Food</h1>
+      <p>Fill out the form below to donate food and help those in need.</p>
+      <form id="donationForm">
+        <label for="foodType">Food Type:</label>
+        <select id="foodType" required>
+          <option value="" disabled selected>Select Food Type</option>
+          <option value="Cooked Meals">Cooked Meals</option>
+          <option value="Dry Rations">Dry Rations</option>
+          <option value="Fruits">Fruits</option>
+          <option value="Vegetables">Vegetables</option>
+          <option value="Others">Others</option>
+        </select>
+
+        <label for="quantity">Quantity (per person):</label>
+        <input type="number" id="quantity" min="1" placeholder="no. per person" required>
+
+        <label for="expiry">Expiry Date:</label>
+        <input type="date" id="expiry" required>
+
+        <label for="donorName">Your Name:</label>
+        <input type="text" id="donorName" placeholder="Enter your name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" rows="4" placeholder="Enter your address" required></textarea>
+
+        <!-- Add an input for uploading a photo -->
+        <label for="foodPhoto">Upload Food Photo:</label>
+        <input type="file" id="foodPhoto" accept="image/*" required>
+
+        <button type="submit">Submit Donation</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Food4All | Made with ❤️ in PST</p>
+  </footer>
+
+  <script src="donate.js"></script>
+</body>
+</html>

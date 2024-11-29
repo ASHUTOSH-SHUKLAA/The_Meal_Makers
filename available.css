@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #f4f4f4;
+  }
+  
+ 
+  nav{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347;
+  }
+ 
+  .accept-section {
+    padding: 40px;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accept-section h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .accept-section p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .accept-form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .accept-form input,
+  .accept-form select,
+  .accept-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .accept-form textarea {
+    resize: none;
+  }
+  
+  .accept-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .accept-form .btn:hover {
+    background-color: #45a049;
+  }
+  
