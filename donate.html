@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="donate.css">
 </head>
 <body>
- 
+
   <header>
     <nav class="navbar">
       <div class="logo">Food4All</div>
@@ -15,7 +15,7 @@
         <li><a href="homepage.html">Home</a></li>
         <li><a href="donate.html">Donate Food</a></li>
         <li><a href="available.html">Available Food</a></li>
-        <li><a href="info.html">Info</a></li>
+        <li><a href="info.html">Join movement</a></li>
       </ul>
     </nav>
   </header>
@@ -24,6 +24,12 @@
     <section class="donation-form-section">
       <h1>Donate Food</h1>
       <p>Fill out the form below to donate food and help those in need.</p>
+
+      
+      <div class="highlighted-note">
+        <p><strong>Note:</strong> We are currently registering foods in nearby Bangalore. Please ensure your donation is from Bangalore.</p>
+      </div>
+
       <form id="donationForm">
         <label for="foodType">Food Type:</label>
         <select id="foodType" required>
@@ -50,7 +56,11 @@
         <label for="address">Address:</label>
         <textarea id="address" rows="4" placeholder="Enter your address" required></textarea>
 
-        
+       
+        <label for="distributionTime">Food Distribution Time:</label>
+        <input type="time" id="distributionTime" required>
+
+       
         <label for="foodPhoto">Upload Food Photo:</label>
         <input type="file" id="foodPhoto" accept="image/*" required>
 
@@ -58,11 +68,9 @@
       </form>
     </section>
   </main>
-
   <footer>
     <p>© 2024 Food4All | Made with ❤️ in PST</p>
   </footer>
-
   <script src="donate.js"></script>
 </body>
 </html>
