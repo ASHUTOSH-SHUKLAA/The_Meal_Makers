@@ -7,7 +7,7 @@ const donations = JSON.parse(localStorage.getItem('donations')) || [];
 
 
 function displayDonations() {
-  
+ 
   availableFoodList.innerHTML = '';
 
   
@@ -34,19 +34,9 @@ displayDonations();
 clearButton.addEventListener('click', function() {
   
   localStorage.removeItem('donations');
-  
- 
   localStorage.removeItem('donatedFoodImage');
-  
-  
   console.log('All donations and images have been cleared from localStorage.');
-
-  
   availableFoodList.innerHTML = '';
-
- 
   location.reload();
-
-  
   displayDonations();
 });
