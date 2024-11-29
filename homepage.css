@@ -46,23 +46,10 @@ body {
   background-color: rgba(25, 25, 25, 0.5);
   background-image: url("Screenshot 2024-11-28 at 10.20.17 PM copy.jpg");
   opacity: 40;
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image within the section */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
-
-
-/* .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 14rem 0rem ;
-  background-color: #fff;
-  background-image: url("Screenshot 2024-11-28 at 10.20.17 PM copy.jpg");
-  opacity: 0.8;
-  background-color: rgba(25, 25, 25, 0.5);
-} */
 
 .hero-text h1 {
   font-size: 2.5rem;
