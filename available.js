@@ -15,7 +15,7 @@ function displayDonations() {
     const listItem = document.createElement('li');
     listItem.innerHTML = `
       <strong>Food Type:</strong> ${donation.foodType} <br>
-      <strong>Quantity:</strong> ${donation.quantity} kg <br>
+      <strong>Quantity:</strong> ${donation.quantity} Plate <br>
       <strong>Expiry Date:</strong> ${donation.expiry} <br>
       <strong>Donor Name:</strong> ${donation.donorName} <br>
       <strong>Contact:</strong> ${donation.contact} <br>
